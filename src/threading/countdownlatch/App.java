@@ -12,12 +12,14 @@ public class App {
 		for(int i = 0 ; i<3; i++) {
 			service.submit(new Worker(latch));
 		}
+		service.shutdown();
 
 		try {
 			latch.await();
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
+
 
 		System.out.println("Completed");
 	}

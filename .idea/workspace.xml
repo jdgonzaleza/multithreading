@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7746d01f-dcb5-46f7-9206-0017f2f5dacc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/threading/countdownlatch/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threading/countdownlatch/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threading/producerconsumer/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threading/producerconsumer/Producer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Threads/threading/countdownlatch/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Threads/threading/countdownlatch/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/threading/countdownlatch/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threading/countdownlatch/App.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,13 +46,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App (1)">
+  <component name="RunManager" selected="Application.App (2)">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="threading.countdownlatch.App" />
       <module name="Threads" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="threading.countdownlatch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threading.producerconsumer.App" />
+      <module name="Threads" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threading.producerconsumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,19 +99,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Volatile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threading.Volatile" />
-      <module name="Threads" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="threading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Worker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="threading.locking.Worker" />
       <module name="Threads" />
@@ -112,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (2)" />
         <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.Worker" />
         <item itemvalue="Application.Sync" />
-        <item itemvalue="Application.Volatile" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +132,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592167612358</updated>
-      <workItem from="1592167613611" duration="5003000" />
+      <workItem from="1592167613611" duration="7064000" />
     </task>
     <servers />
   </component>
