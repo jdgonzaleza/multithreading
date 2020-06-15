@@ -1,6 +1,5 @@
 package threading.callabelAndFuture;
 
-import org.w3c.dom.ls.LSOutput;
 
 import java.util.Random;
 import java.util.concurrent.*;
