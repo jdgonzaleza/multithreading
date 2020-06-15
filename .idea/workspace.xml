@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7746d01f-dcb5-46f7-9206-0017f2f5dacc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/threading/deadlock/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threading/deadlock/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threading/deadlock/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threading/semaphore/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threading/semaphore/Connection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App (2)">
+  <component name="RunManager" selected="Application.App (4)">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="threading.reentrantLocks.App" />
       <module name="Threads" />
@@ -85,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threading.pool.App" />
+    <configuration name="App (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threading.semaphore.App" />
       <module name="Threads" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="threading.pool.*" />
+          <option name="PATTERN" value="threading.semaphore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (4)" />
         <item itemvalue="Application.App (2)" />
         <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.App (3)" />
         <item itemvalue="Application.App (2)" />
-        <item itemvalue="Application.App (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +156,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592167612358</updated>
-      <workItem from="1592167613611" duration="11307000" />
+      <workItem from="1592167613611" duration="12251000" />
     </task>
     <servers />
   </component>
