@@ -2,27 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7746d01f-dcb5-46f7-9206-0017f2f5dacc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/threading/reentrantLocks/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threading/reentrantLocks/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threading/deadlock/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threading/deadlock/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threading/deadlock/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Threads/threading/Runner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Threads/threading/StartingThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Threads/threading/Sync.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Threads/threading/Volatile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Threads/threading/countdownlatch/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Threads/threading/countdownlatch/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Threads/threading/countdownlatch/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Threads/threading/countdownlatch/Worker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Threads/threading/producerconsumer/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Threads/threading/producerconsumer/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Threads/threading/producerconsumer/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Threads/threading/producerconsumer/Consumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Threads/threading/producerconsumer/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Threads/threading/producerconsumer/Producer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Threads/threading/waitAndNotify/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Threads/threading/waitAndNotify/Consumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threading/StartingThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threading/basicThread/StartingThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threading/Sync.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threading/synchro/Sync.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threading/Volatile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threading/volatiles/Volatile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threading/countdownlatch/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threading/countDownLatch/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threading/countdownlatch/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threading/countDownLatch/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threading/producerconsumer/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threading/producerConsumer/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threading/producerconsumer/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threading/producerConsumer/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threading/producerconsumer/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threading/producerConsumer/Producer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,13 +45,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App (1)">
+  <component name="RunManager" selected="Application.App (2)">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="threading.reentrantLocks.App" />
       <module name="Threads" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="threading.reentrantLocks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threading.deadlock.App" />
+      <module name="Threads" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threading.deadlock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (2)" />
         <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.App (3)" />
         <item itemvalue="Application.App (2)" />
         <item itemvalue="Application.App (1)" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +157,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592167612358</updated>
-      <workItem from="1592167613611" duration="9971000" />
+      <workItem from="1592167613611" duration="11307000" />
     </task>
     <servers />
   </component>
