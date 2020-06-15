@@ -1,4 +1,4 @@
-package threading;
+package threading.synchro;
 
 public class Sync {
 	private int count = 0;

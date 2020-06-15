@@ -1,6 +1,5 @@
-package threading.producerconsumer;
+package threading.producerConsumer;
 
-import java.security.SecureRandomParameters;
 import java.util.Random;
 import java.util.concurrent.BlockingQueue;
 
